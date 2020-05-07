@@ -7,4 +7,4 @@ services:
     image: dbapp/web_python3_mysql_test
     build: ./web1/
     ports:
-      - "8079:80"
+      - "8079:5000"

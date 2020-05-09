@@ -18,7 +18,7 @@ COPY files/db.sql /db.sql
 # RUN chown app:app /app/uploads/
 
 # 如需静态 FLAG 请在此利用环境变量声明
-# ENV DASFLAG=flag{flag_test}
+# ENV DASFLAG=DASCTF{flag_test}
 
 # 请声明对外暴露端口
 EXPOSE 5000
